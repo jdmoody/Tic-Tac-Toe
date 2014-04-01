@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.board {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.row {
+  width: 600px;
+  height: 200px;
+}
+
+.cell {
+  float: left;
+  border: 3px black solid;
+  width: 194px;
+  height: 194px;
+  font-size: 170px;
+  text-align: center;
+}
+
+.info {
+  font-size: 100px;
+  text-align: center;
+}

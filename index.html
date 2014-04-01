@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html>
+<head>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="board">
+    <div class="row row-0">
+      <div class="cell cell-0-0"></div>
+      <div class="cell cell-0-1"></div>
+      <div class="cell cell-0-2"></div>
+    </div>
+    <div class="row row-1">
+      <div class="cell cell-1-0"></div>
+      <div class="cell cell-1-1"></div>
+      <div class="cell cell-1-2"></div>
+    </div>
+    <div class="row row-2">
+      <div class="cell cell-2-0"></div>
+      <div class="cell cell-2-1"></div>
+      <div class="cell cell-2-2"></div>
+    </div>
+  </div>
+  <div class="info"></div>
+
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+   <script src="_.js" type="text/javascript" charset="utf-8"></script>
+   <script src="ttt.js" type="text/javascript" charset="utf-8"></script>
+   <script src="ui.js" type="text/javascript" charset="utf-8"></script>
+
+   <script>
+     $(function(){
+       var ui = new TTT.UI();
+     });
+   </script>
+</body>
+</html>
